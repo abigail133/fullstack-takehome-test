@@ -62,7 +62,7 @@ See the `/tasks` folder for full details on each:
 
 ---
 
-## How we score (100 points)
+## How we score (100 points)ๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆ
 
 | Area | Points |
 |---|---|
