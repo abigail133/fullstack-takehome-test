@@ -14,6 +14,7 @@
     "image": "https://placehold.co/600x400?text=Asok+Condo",
     "description": "Bright corner unit, family-friendly building, pool and gym."
   },
+  
   {
     "id": "P002",
     "title": "Cozy 1-Bed Condo Thonglor",
@@ -150,3 +151,27 @@
     "description": "Sea view, rental investment popular with tourists, beachfront."
   }
 ]
+
+import json
+
+with open("company.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+"print(data["business_name"])
+"print(data["about"])
+
+for product in data["products"]:
+    "print(f"{product['name']} - {product['price_thb']} บาท")
+
+const fs = require("fs");
+
+const data = JSON.parse(
+    fs.readFileSync("company.json", "utf8")
+);
+
+console.log(data.business_name);
+console.log(data.about);
+
+data.products.forEach(product => {
+    console.log(product.name, product.price_thb);
+});
